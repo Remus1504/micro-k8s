@@ -7,27 +7,27 @@ type: Opaque
 data:
   secret-key-one: MDMyYzVjM2NmYzM3OTM4YWU2ZGQ0M2QzYTNlYzc4MzQ=
   secret-key-two: ZDY2ZTM3NzAxOGMwYmMwYjU3NzJiYmM5YjEzMWU2ZDk=
-  gateway-jwt-token: 1282722b942e08c8a6cb033aa6ce850e
-  jwt-token: 8db8f85991bb28f45ac0107f2a1b349c
-  micro-redis-host: redis://::thisismyownpassword123@@micro-redis-production.svc.cluster.local:6379
-  sender-email: felicitat@etherreal.email
-  sender-email-password: VXhfpasmR7jzd3sybC
-  micro-mysql-db: mysql://micro:microgradepass@micro-mysql.production.svc.cluster.local:3306/micro_auth
-  micro-postgres-host: micro-postgres.production.svc.cluster.local
-  micro-postgres-user: micro
-  micro-postgres-password: api
-  cloud-name: dynamic9ym3
+  gateway-jwt-token: MTI4MjcyMmI5NDJlMDhjOGE2Y2IwMzNhYTZjZTg1MGU=
+  jwt-token: OGRiOGY4NTk5MWJiMjhmNDVhYzAxMDdmMmExYjM0OWM=
+  micro-redis-host: cmVkaXM6Ly86dGhpc2lzbXlvd25wYXNzd29yZDEyM0BAbWljcm9ncmFkZS1yZWRpcy1wcm9kdWN0aW9uLnN2Yy5jbHVzdGVyLmxvY2FsOjYzNzk=
+  sender-email: ZmVsaWNpdGF0QGV0aGVycmVhbC5lbWFpbA==
+  sender-email-password: VlhoZnBhc21SN2p6ZDNzeWJD
+  micro-mysql-db: bXlzcWw6Ly9taWNyb2dyYWRlOm15X3Bhc3N3b3JkQG1pY3JvLW15c3FsLnByb2R1Y3Rpb24uc3ZjLmNsdXN0ZXIubG9jYWw6MzMwNi9taWNyb2dyYWRlX2F1dGg=
+  micro-postgres-host: bWljcm9ncmFkZS1wb3N0Z3Jlcy5wcm9kdWN0aW9uLnN2Yy5jbHVzdGVyLmxvY2Fs
+  micro-postgres-user: bWljcm9ncmFkZQ==
+  micro-postgres-password: YXBp
+  cloud-name: ZHluYW1pYzl5bTM=
   cloud-api-key: MjgyNzgyODY0MTgyOTI0
   cloud-api-secret: SlVYeHJfaHpjUUh1dWdzNXR6QjVhU1RDaEFV
-  mongo-database-url: bW9uZ29kYjp1cmw6Ly9taWNyby1tb25nby5wcm9kdWN0aW9uLnN2Yy5jbHVzdGVyLmxvY2FsOjI3MDE3L21pY2dyb2dkZ3JhZGUtY291cnNl
-  stripe-api-key: sk_test_51OAXs6DTglhVMdJPrllX1Lp9Mw7aXwlbBbFJOlQdklFv5mRKPkQdFrxvYN68xZ54wrBr6VbP44kSM5UpPtfaixlMgcW00CIZEpmn5
-  stripe-client-key: sk_test_51OAXs6DTglhVMdJPrllX1Lp9Mw7aXwlbBbFJOlQdklFv5mRKPkQdFrxvYN68xZ54wrBr6VbP44kSM5UpPtfaixlMgcW00CIZEpmn5
+  mongo-database-url: bW9uZ29kYjovL21pY3JvZ3JhZGUtbW9uZ28ucHJvZHVjdGlvbi5zdmMuY2x1c3Rlcjpsb2NhbDoyNzAxNy9taWNyby11c2Vycw==
+  stripe-api-key: cGtfdGVzdF81MU9xaFRvQjRFdHZRQ2FidnZsZ3RVZFhFYTQ3SndRV0hhVXJXZm01b2hlTVA0eXg0MnpmRm9jNXg0eDF6TVlseGRDT1paS0syMGFpeWZxUFBXaDFwZGlTdzAwRVRYSzJEaVg=
+  stripe-client-key: c2tfdGVzdF81MU9BWHM2RFRnbGhWTWRKUHJsbFgxTHA5TXc3YVh3bGJCYkZKT2xRZGtsRnY1bVJLUGtRZEZyeHZZTjY4eFo1NHdyQnI2VmJQNDRrU001VXBQdGZhaXhsTWdjVzAwQ0laRXBtbjU
   micro-rabbitmq-user: bWljcm9ncmFkZQ==
   micro-rabbitmq-password: bWljcm9ncmFkZXBhc3M=
-  micro-rabbitmq-endpoint: YW1xcDovL21pY3JvZ3JhZGU6bWljcm9ncmFkZTptaWNyb2dyYWRlcGFzc0BtaWNyb3F1ZWUucHJvZHVjdGlvbi5zdmMuY2x1c3Rlci5sb2NhbDo1Njcy
-  micro-elasticsearch-url: http://elasticsearch:admin1234@micro-elasticsearch-production.svc.cluster.local:9200
+  micro-rabbitmq-endpoint: YW1xcDovL21pY3JvZ3JhZGU6bWljcm9ncmFkZXBhc3NAbWljcm9ncmFkZS1xdWV1ZS5wcm9kdWN0aW9uLnN2Yy5jbHVzdGVyLmxvY2FsOjU2NzI=
+  micro-elasticsearch-url: aHR0cDovL2VsYXN0aWM6YWRtaW4xMjM0QG1pY3JvZ3JhZGUtZWxhc3RpYy5wcm9kdWN0aW9uLnN2Yy5jbHVzdGVyLmxvY2FsOjkyMDA=
   micro-elastic-apm-server-url: aHR0cDovL21pY3JvLWFwbS5wcm9kdWN0aW9uLnN2Yy5jbHVzdGVyLmxvY2FsOjgyMDA=
-  micro-elastic-apm-secret-token: thisismysecrettoken
-  micro-elasticsearch-host: bWljcm8tZWxhc3RlcnNoaXAudHJhbnNwb3J0aW9uLnN2Yy5jbHVzdGVyLmxvY2Fs
+  micro-elastic-apm-secret-token: dGhpc2lzbXlzZWNyZXR0b2tlbg==
+  micro-elasticsearch-host: bWljcm9ncmFkZS1lbGFzdGljLnByb2R1Y3Rpb24uc3ZjLmNsdXN0ZXIubG9jYWw=
   micro-elasticsearch-username: ZWxhc3RpYw==
   micro-elasticsearch-password: YWRtaW4xMjM0
