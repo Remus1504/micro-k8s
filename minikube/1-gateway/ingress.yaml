@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: micro-gateway-ingress
+  namespace: production
+spec:
+  ingressClassName: nginx
+  defaultBackend:
+    service:
+      name: micro-gateway
+      port:
+        number: 4000
+  tls:
+    - hosts:
+        - microapp.com
+      secretName: gateway-ingress-tls
+  rules:
+    - host: microapp.com
+      http:
+        paths:
+          - path: /api/gateway/v1
+            pathType: Prefix
+            backend:
+              service:
+                name: micro-gateway
+                port:
+                  number: 4000

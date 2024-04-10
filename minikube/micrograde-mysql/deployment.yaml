@@ -19,9 +19,9 @@ spec:
           image: mysql:8.0.35
           env:
             - name: MYSQL_ROOT_PASSWORD
-              value: my_root_password
+              value: api
             - name: MYSQL_PASSWORD
-              value: my_password
+              value: api
             - name: MYSQL_DATABASE
               value: micrograde_auth
             - name: MYSQL_USER

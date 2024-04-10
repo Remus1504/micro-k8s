@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: micro-redis
+  namespace: production
+spec:
+  type: ClusterIP
+  selector:
+    app: micrograde-redis
+  ports:
+    - name: micrograde-redis
+      port: 6379
+      targetPort: 6379

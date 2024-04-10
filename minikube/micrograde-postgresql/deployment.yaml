@@ -20,7 +20,7 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: POSTGRES_USER
-              value: micro
+              value: micrograde
             - name: POSTGRES_PASSWORD
               value: api
             - name: POSTGRES_DB
